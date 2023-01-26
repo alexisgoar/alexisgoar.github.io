@@ -1,0 +1,17 @@
+*{
+    padding: 20; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black; 
+}
+
+body{
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+
