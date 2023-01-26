@@ -18,6 +18,11 @@ fetch('/elements/navigation.html')
         hamburger.classList.remove("active"); 
         menu.classList.remove("active"); 
     }))
+
+    window.onscroll = () =>{
+        hamburger.classList.remove("active"); 
+        menu.classList.remove("active");
+    }
 })
 
 
