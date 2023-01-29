@@ -3,10 +3,11 @@
     justify-content: center;
     align-content: center;
     padding: 0px;    
+    margin-bottom: 50px;
 }
 
 .slider{
-    height: 300px;
+    height: 400px;
     overflow: hidden;
   }
   
@@ -23,6 +24,7 @@
   }
   
   .slide{
+
     width: 20%;
     transition: 2s;
     align-items: center;
@@ -30,12 +32,11 @@
   }
 
   .titulo{
-    position: absolute; 
     font-size: 50pt; 
     width: 100%; 
     text-align: center;
     top: 200px; 
-    opacity: 100%;
+    
   }
   
   .slideback{
@@ -50,7 +51,7 @@
   .navigation-manual{
     position: absolute;
     width: 100%;
-    margin-top: -250px;
+    margin-top: -150px;
     display: flex;
     justify-content: center;
   }
@@ -93,7 +94,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 14px;
+    margin-top: 214px;
   }
   
   .navigation-auto div{
