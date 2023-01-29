@@ -6,8 +6,7 @@
 }
 
 .slider{
-    height: 500px;
-    border-radius: 10px;
+    height: 300px;
     overflow: hidden;
   }
   
@@ -16,6 +15,7 @@
     width: 500%;
     height: 500px;
     display: flex;
+    align-items: center;
   }
   
   .slides input{
@@ -25,26 +25,32 @@
   .slide{
     width: 20%;
     transition: 2s;
+    align-items: center;
+
   }
-  
-  .slide img{
-    min-width: 100%;
-    height: auto;
-  }
-  
-  .slide h2{
+
+  .titulo{
     position: absolute; 
     font-size: 50pt; 
     width: 100%; 
     text-align: center;
-    margin-top: 100px;
-
+    top: 200px; 
+    opacity: 100%;
   }
+  
+  .slideback{
+    min-width: 100%;
+    height: auto;
+    opacity: 50%;
+    align-self: center;
+  }
+  
+
 
   .navigation-manual{
     position: absolute;
     width: 100%;
-    margin-top: -40px;
+    margin-top: -250px;
     display: flex;
     justify-content: center;
   }
@@ -87,7 +93,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 14px;
   }
   
   .navigation-auto div{
