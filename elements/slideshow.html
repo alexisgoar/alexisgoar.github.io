@@ -1,38 +1,59 @@
-<div class="slideshow">
-    <div class="slider">
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
-          <div class="slide first">
-            <img class="slideback" src="imgs/slideshow1.JPG" alt="">
-            <h2 class="titulo">OFERTAS!</h2>
-          </div>
-          <div class="slide">
-            <img class="slideback" src="imgs/slideshow2.JPG" alt="">
-            <h2 class="titulo">KIKI Valentine</h2>
-          </div>
-          <div class="slide">
-            <img class="slideback" src="imgs/slideshow3.JPG" alt="">
-            <h2 class="titulo">Nuevos aretes</h2>
-          </div>
-          <div class="slide">
-            <img class="slideback" src="imgs/slideshow4.JPG" alt="">
-            <h2 class="titulo">Bla bla</h2>
-          </div>
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-          </div>
+<div class="slider">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <h2 class="slide-title">
+                OFERTAS!
+            </h2>
+            <img src="/imgs/slideshow1.JPG">
         </div>
-        <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
+          <div class="swiper-slide">
+            <h2 class="slide-title">
+                Nuevos aretes
+            </h2>
+            <img src="/imgs/slideshow2.JPG">
         </div>
-    </div>
+          <div class="swiper-slide">
+            <h2 class="slide-title">
+                blah blah
+            </h2>
+            <img src="/imgs/slideshow3.JPG">
+        </div>
+          <div class="swiper-slide">
+            <h2 class="slide-title">
+                blah blah 2
+            </h2>
+            <img src="/imgs/slideshow4.JPG">
+        </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+      </div> 
+
 </div>
+   <script>
+        const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000
+        },
+        loop: true,
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true, 
+        },
+    
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+    
+    });
+</script>

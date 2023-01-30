@@ -21,3 +21,7 @@ h1{
     padding-left: 20%;
     padding-bottom: 70px;
 }
+
+.replace_with_slideshow{
+    z-index: -1;
+}

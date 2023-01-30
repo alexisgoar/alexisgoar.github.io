@@ -4,20 +4,31 @@
     <title> KIKI Bisutería</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/elements/navigation.css">
     <link rel="stylesheet" href="/elements/footer.css">
     <link rel="stylesheet" href="/elements/slideshow.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+          $("#replace_with_slideshow").load("/elements/slideshow.html"); 
+        });
+    </script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ 
 </head>
 <body>
     <header>
         <script id="replace_with_navbar" src="/src/nav_script.js"></script>
     </header>
-    <script id="replace_with_slideshow" src="/src/slider_script.js"></script>
-    <h1> KIKI</h1>
-    <img src="/imgs/testimg.JPG" alt="KIKI Valentine">
-    <img src="/imgs/testimg.JPG" alt="KIKI Valentine">
+    <div id="replace_with_slideshow"></div>
+    <img src="/imgs/testimg.JPG">
+    <img src="/imgs/testimg.JPG">
 
     <footer> 
         <script id="replace_with_footer" src="/src/foot_script.js"></script>
