@@ -1,4 +1,4 @@
-fetch('/elements/gallery.html')
+fetch('./elements/gallery.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#replace_with_gallery");
