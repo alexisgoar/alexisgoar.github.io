@@ -37,6 +37,8 @@ a{
 
 .menu-link{
     transition: 0.7s ease;
+    font-family: 'Quicksand', serif;
+    font-size: 20pt; 
 }
 
 .menu-link:hover{

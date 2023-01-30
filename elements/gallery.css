@@ -46,12 +46,15 @@
 
 .gallery-content h3{
     text-align: left;
+    font-family: 'Quicksand', serif;
     font-size: 20px;
     margin: 0;
     padding-top: 10px;
+    text-transform: uppercase;
 }
 
 .gallery-content h6{
+    font-family: 'Quicksand', serif;
     font-size: 12px; 
     text-align: left;
     color: black; 
