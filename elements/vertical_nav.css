@@ -1,0 +1,30 @@
+.vnav{
+    position: fixed; 
+    margin-top: 145px; 
+    z-index: 10;
+    height: 100%; 
+    width: 300px; 
+    background-color: white;
+    display: flex; 
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 180px;
+    padding-left: 30px; 
+}
+.vnav ul{
+    margin: 10px; 
+}
+.el-vnav{
+    font-family: 'Playfair Display', serif;
+    margin: 10px; 
+}
+
+.el-vnav a{
+    color: #c22c35; 
+}
+@media(max-width:1000px){
+    .vnav{
+        display: none; 
+    }
+}
