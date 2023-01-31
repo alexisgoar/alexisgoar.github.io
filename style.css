@@ -8,6 +8,7 @@
 @import "/elements/navigation.css";
 @import "/elements/slideshow.css"; 
 @import "/elements/logo.css";
+@import "/elements/novedades.css";
 *{
     padding: 20; 
     margin: 0; 
@@ -40,7 +41,7 @@ h1{
 
 .page-content{
     margin-top:145px; 
-    margin-left: 300px; 
+    margin-left: 250px; 
 }
 
 @media(max-width:1000px){
