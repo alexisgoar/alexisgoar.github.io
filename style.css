@@ -42,11 +42,19 @@ h1{
 .page-content{
     margin-top:145px; 
     margin-left: 250px; 
+    min-height: 80vh;
 }
 
 @media(max-width:1000px){
     .page-content{
         margin-left: 0px; 
         margin-top: 0px; 
+    }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1000px){
+    .page-content{
+        margin-left: 0px; 
+        margin-top: 100px; 
     }
 }

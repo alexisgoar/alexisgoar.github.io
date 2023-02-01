@@ -22,29 +22,7 @@ footer{
     line-height: 2rem; 
 }
 
-.socials{
-    list-style: none;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    margin: 1rem 0 0.5rem 0; 
-    padding: 0px 0px 0px 15px; 
-}
 
-.socials li{
-    margin: 0 15px 0 0px; 
-}
-.socials a{
-    text-decoration: none;
-    color: #ffff; 
-}
-.socials i{
-    font-size: 1.5rem; 
-    transition: color .7s ease; 
-}
-.socials a:hover{
-    color: dodgerblue; 
-}
 .footer-bottom{
     background: black; 
     width: 100vw; 

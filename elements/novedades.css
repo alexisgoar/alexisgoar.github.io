@@ -13,6 +13,7 @@
 }
 
 .novedades-content{
+    position: relative;
     overflow: hidden;
     width: 250px; 
     height: 350px;
@@ -46,8 +47,38 @@
  
 }
 
+.novedades-content.sold_out .sold-out-tag{
+    opacity: 100%;
+}
+
+.sold-out-tag{
+    display: flex;
+    position: absolute; 
+    background-color: #282b2e;
+    width: 30%;
+    height: 15%; 
+    text-align: center;
+    justify-content: center;
+    padding-top: 0px;
+    margin-left: 65%; 
+    margin-top: 5%; 
+    opacity: 0%;
+}
+
+.sold-out-tag p{
+    color : white; 
+    font-size: 8pt;
+    align-self: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+
+}
 
 @media(max-width: 1000px){
+    .novedades{
+        justify-content: center;
+        align-items: center;
+    }
     .novedades-content{
         width: 45%; 
     }
@@ -61,6 +92,11 @@
 }
 
 @media(max-width: 500px){
+    .novedades{
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+    }
     .novedades-content{
         width: 100%;
     }

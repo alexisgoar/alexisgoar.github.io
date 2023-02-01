@@ -22,6 +22,36 @@
 .el-vnav a{
     color: #c22c35; 
 }
+
+
+.el-vnav a:hover{
+    color: dodgerblue;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items:left;
+    justify-content: flex-start;
+    margin: 1rem 0 0.5rem 0; 
+    padding: 0px 0px 0px 0px; 
+}
+
+.socials li{
+    margin: 0 15px 0 0px; 
+}
+.socials a{
+    text-decoration: none;
+    color: #c22c35; 
+}
+.socials i{
+    font-size: 1rem; 
+    transition: color .7s ease; 
+}
+.socials a:hover{
+    color: dodgerblue; 
+}
+
 @media(max-width:1000px){
     .vnav{
         display: none; 
